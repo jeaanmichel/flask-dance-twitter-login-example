@@ -1,0 +1,10 @@
+flask
+flask-dance[sqla]
+flask-sqlalchemy
+flask-bootstrap
+flask-script
+flask-migrate
+flask-login
+blinker
+sqlalchemy
+flask-security
