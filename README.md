@@ -43,3 +43,9 @@ python run.py --setup
 ```
 python run.py
 ```
+
+### Referência
+
+```
+https://pythonhosted.org/Flask-Dance/quickstarts/sqla-multiuser.html
+```
