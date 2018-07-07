@@ -7,4 +7,3 @@ flask-migrate
 flask-login
 blinker
 sqlalchemy
-flask-security
