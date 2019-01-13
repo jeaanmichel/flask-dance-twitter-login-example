@@ -1,5 +1,5 @@
 flask==1.0.2
-flask-dance[sqla]==1.0.0
+flask-dance[sqla]==1.2.0
 flask-sqlalchemy==2.3.2
 flask-bootstrap==3.3.7.1
 flask-script==2.0.6
