@@ -14,7 +14,7 @@ Instale as bibliotecas necessárias para executar a aplicação
 pip install -r requirements.txt
 ```
 
-Substitua as chaves do seu Twitter APP em  TWITTER_API_SECRET e TWITTER_API_KEY no arquivo config.py
+Substitua as chaves do seu Twitter APP em  TWITTER_OAUTH_API_KEY e TWITTER_OAUTH_API_KEY no arquivo config.py
 
 ```
 import os
@@ -27,12 +27,12 @@ class Config(object):
                               'sqlite:///' + os.path.join(basedir, 'app.db')
 
     # Twitter App
-    TWITTER_API_KEY = os.environ.get('TWITTER_API_KEY') or 'twitter-api-key'
-    TWITTER_API_SECRET = os.environ.get('TWITTER_API_SECRET') or\
+    TWITTER_OAUTH_API_KEY = os.environ.get('TWITTER_OAUTH_API_KEY') or 'twitter-api-key'
+    TWITTER_OAUTH_API_KEY = os.environ.get('TWITTER_OAUTH_API_KEY') or\
                          'twitter-api-secret'
 ```
 
-Crie o banco de dados 
+Crie o banco de dados
 
 ```
 python run.py --setup

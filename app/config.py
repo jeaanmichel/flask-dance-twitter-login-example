@@ -8,6 +8,6 @@ class Config(object):
                               'sqlite:///' + os.path.join(basedir, 'app.db')
 
     # Twitter App
-    TWITTER_API_KEY = os.environ.get('TWITTER_API_KEY') or 'twitter-api-key'
-    TWITTER_API_SECRET = os.environ.get('TWITTER_API_SECRET') or\
+    TWITTER_OAUTH_API_KEY = os.environ.get('TWITTER_OAUTH_API_KEY') or 'twitter-api-key'
+    TWITTER_OAUTH_API_KEY = os.environ.get('TWITTER_OAUTH_API_KEY') or\
                          'twitter-api-secret'

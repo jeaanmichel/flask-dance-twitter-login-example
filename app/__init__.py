@@ -9,8 +9,7 @@ logging.basicConfig()
 app = Flask(__name__)
 app.config.from_object(Config)
 
-twitter_blueprint = make_twitter_blueprint(api_key=app.config["TWITTER_API_KEY"],
-                                           api_secret=app.config["TWITTER_API_SECRET"])
+twitter_blueprint = make_twitter_blueprint()
 app.register_blueprint(twitter_blueprint, url_prefix='/login')
 
 Bootstrap(app)
